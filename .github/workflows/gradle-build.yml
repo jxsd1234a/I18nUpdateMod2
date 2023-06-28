@@ -3,10 +3,10 @@ name: Gradle Build
 on:
   workflow_dispatch:
     branches:
-      - 1.16.5
+      - wy1.12.2
   push:
     branches:
-      - 1.16.5
+      - wy1.12.2
     paths:
       - 'src/main/**'
 
