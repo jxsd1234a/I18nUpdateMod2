@@ -14,9 +14,9 @@ import java.util.concurrent.TimeUnit;
 @Mod(I18nUpdateMod.MOD_ID)
 public class I18nUpdateMod {
     public final static String MOD_ID = "i18nupdatemod";
-    public final static Path CACHE_DIR = Paths.get(System.getProperty("user.home"), MOD_ID, "1.16.5");
-    public final static Path LANGUAGE_PACK = CACHE_DIR.resolve("Minecraft-Mod-Language-Modpack-1-16.zip");
-    public final static String LINK = "http://downloader1.meitangdehulu.com:22943/Minecraft-Mod-Language-Modpack-1-16.zip";
+    public final static Path CACHE_DIR = Paths.get(System.getProperty("user.home"), MOD_ID, "1.12.2");
+    public final static Path LANGUAGE_PACK = CACHE_DIR.resolve("Minecraft-Mod-Language-Modpack.zip");
+    public final static String LINK = "https://gitcode.net/chearlai/translationpackmirror/-/raw/main/files/Minecraft-Mod-Language-Modpack.zip";
     public final static long MAX_INTERVAL_DAYS = 7;
 
     public I18nUpdateMod() {
